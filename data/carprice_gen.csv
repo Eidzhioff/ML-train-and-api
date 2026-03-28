@@ -1,0 +1,11 @@
+car_ID,symboling,CarName,fueltype,aspiration,doornumber,carbody,drivewheel,enginelocation,wheelbase,carlength,carwidth,carheight,curbweight,enginetype,cylindernumber,enginesize,fuelsystem,boreratio,stroke,compressionratio,horsepower,peakrpm,citympg,highwaympg,price
+206,0,ford focus,gas,std,four,sedan,fwd,front,104.3,178.5,69.5,57.9,2850,ohc,four,122,mpfi,3.31,3.54,10.0,120,6000,26,36,18450
+207,1,hyundai elantra,gas,std,four,sedan,fwd,front,106.3,184.1,70.9,56.5,2920,ohc,four,128,mpfi,3.23,3.58,10.3,147,6200,28,37,21350
+208,0,kia sportage,gas,turbo,four,suv,awd,front,106.3,176.4,73.0,64.2,3485,dohc,four,159,mpfi,3.39,3.46,9.5,181,5500,22,28,28900
+209,-1,lexus es 350,gas,std,four,sedan,fwd,front,111.0,195.9,73.4,57.1,3705,dohcv,six,203,mpfi,3.70,3.27,11.8,268,6200,22,32,42750
+210,1,tesla model 3,electric,std,four,sedan,rwd,front,113.2,184.8,72.8,56.8,3862,electric,motor,0,electric,0,0,0,283,0,132,126,45990
+211,0,acura integra,gas,turbo,two,hatchback,fwd,front,107.7,179.8,70.6,55.3,3015,dohc,four,135,mpfi,3.27,3.39,10.6,200,6500,24,32,29450
+212,2,genesis g70,gas,turbo,four,sedan,rwd,front,111.6,184.4,73.4,55.7,3620,dohcv,six,181,mpfi,3.43,3.27,10.0,252,5800,20,28,38900
+213,1,infiniti q50,gas,turbo,four,sedan,awd,front,112.2,188.3,71.8,57.9,3850,dohcv,six,183,mpfi,3.50,3.15,10.3,300,6400,19,27,43200
+214,0,cadillac ct4,gas,turbo,four,sedan,rwd,front,109.3,187.2,71.4,56.3,3590,dohc,four,146,mpfi,3.35,3.43,9.8,237,5800,21,30,36750
+215,-1,lincoln corsair,gas,turbo,four,suv,awd,front,106.7,180.6,74.3,64.8,3785,dohc,four,159,mpfi,3.43,3.58,9.5,250,5500,21,29,39850

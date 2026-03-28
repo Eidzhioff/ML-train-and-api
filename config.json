@@ -1,0 +1,45 @@
+{
+    "num_cols": [
+        "wheelbase",
+        "carlength",
+        "carwidth",
+        "carheight",
+        "curbweight",
+        "enginesize",
+        "boreratio",
+        "stroke",
+        "compressionratio",
+        "horsepower",
+        "peakrpm",
+        "citympg",
+        "highwaympg"
+    ],
+    "str_cols": [
+        "CarName",
+        "fueltype",
+        "aspiration",
+        "doornumber",
+        "carbody",
+        "drivewheel",
+        "enginelocation",
+        "enginetype",
+        "cylindernumber",
+        "fuelsystem"
+    ],
+    "bin_cols": [
+        "fueltype",
+        "aspiration",
+        "doornumber",
+        "enginelocation"
+    ],
+    "cat_cols": [
+        "carbody",
+        "drivewheel",
+        "enginetype",
+        "cylindernumber",
+        "fuelsystem",
+        "car_company",
+        "car_model",
+        "symboling"
+    ]
+}
