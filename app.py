@@ -47,22 +47,22 @@ with open('model.pkl', 'rb') as f:
 
 class Input(BaseModel):
     symboling: int
-    CarName: object
-    fueltype: object
-    aspiration: object
-    doornumber: object
-    carbody: object
-    drivewheel: object
-    enginelocation: object
+    CarName: str
+    fueltype: str
+    aspiration: str
+    doornumber: str
+    carbody: str
+    drivewheel: str
+    enginelocation: str
     wheelbase: float
     carlength: float
     carwidth: float
     carheight: float
     curbweight: int
-    enginetype: object
-    cylindernumber: object
+    enginetype: str
+    cylindernumber: str
     enginesize: int
-    fuelsystem: object
+    fuelsystem: str
     boreratio: float
     stroke: float
     compressionratio: float
@@ -113,7 +113,7 @@ def get_predict(input_data: Input):
     data_to_predict = prepare_data(create_df, config=config)
     predict = model.predict(data_to_predict)
 
-    return {'prediction': predict}
+    return {'prediction': list(predict)}
 
 if __name__ == '__main__':
     import uvicorn
